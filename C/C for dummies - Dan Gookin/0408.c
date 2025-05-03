@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// This exercise is made to deliberatelly cause a compitalition error
+// This exercise is made to deliberatelly cause a compilation error
 
 int main()
 {
