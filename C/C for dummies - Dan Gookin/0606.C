@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define GLORKUS 22
+#define GLORKUS 16
 
 int main()
 {
