@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Validação de dados</h1>
+    <h2>Motivação</h2>
+    <p>Muitos dados seguem padrões, como cpf's, cep's, número de telefones, etc. Antes que esse tipo de informação seja enviada de um formulário para um servidor, é interessante que os dados sejam tratados para conformiarem que eles estejam no formato correto, pois quando os dados são confiáveis, é mais fácil extrair valor deles.</p>
+    <h2>ETL</h2>
+    <p>ETL é um processo que envolve a extração, transformação e carga de dados. Na validação de dados, é importante garantir que os dados sejam extraídos de fontes confiáveis, transformados para atender aos requisitos de formato e, em seguida, carregados no sistema de destino de maneira adequada. ETL esta se tornando uma área popular pois existe uma grande quantidade de dados antigos com problemas não verificados que precisam ser tratados.</p>
+    <h2>Validação de dados em HTML5</h2>
+    <p>Na HTML5 há dois tipos de validação possíveis; 
+        -Verificar se o dado inserido em um campo é consistente com o seu tipo e/ou padrão (pattern);
+        -Verificar se um campo obrigatório foi preenchido.</p>
+    <h2>Expressões regulares</h2>
+    <p>Conhecido como regex, as expressões regulares são sequências de caracteres que formam um padrão de pesquisa. Elas são amplamente utilizadas na validação de dados, permitindo verificar se uma string corresponde a um formato específico, como um CPF ou um endereço de e-mail.</p>
+    <h3>Exemplo de regex</h3>
+    <p> -[0-9]{5}-[0-9]{3,4}$<br>
+        -[ABC]{3}-[1-5]{4}<br>
+        -[^ABC]{3}-[1-5]{4}
+    </p>
+    <h2>Como funciona a validação?</h2>
+    <p>Além da validação pelo tipo de dado, há também a validação de campos obrigatórios. Quando precisamos que determiando campo não fique em branco, usamos o atributo "required".</p>
+    <h3>Atenção</h3>
+    <p>O comportamento padrão da HTML5 é validar os dados quando ocorre o envio do formulário, entretanto, é possível desativar essa funcionalidade. Para isso, deve ser atribuído o atributo "novalidate" à tag &ltform&gt.</p>
+ 
+</body>
+</html>
