@@ -1,3 +1,23 @@
+# Arquivos temporários do tempCodeRunner
 tempCodeRunnerFile
 
-.vscode
+# Configurações do VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints (pastas e arquivos automáticos)
+.ipynb_checkpoints/
+
+# Ambientes virtuais (venv, conda)
+envs/
+.venv/
+venv/
+
+# Logs e bancos de dados
+*.log
+*.sqlite3
+*.db
