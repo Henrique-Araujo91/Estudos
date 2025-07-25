@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-size:2rem;
+            }
+            #container{
+                width:1070px;
+                margin: 0 auto;
+                display: flex;
+                /*flex-direction: row;*/ /*Todos os elementos numa única linha*/
+                flex-direction: column; /*Todos os elementos numa única coluna*/
+            }
+
+            /*Uso da pseudoclasse :hover*/
+            #link:hover {
+                color: orange;
+            }
+
+            #container-texto {
+                padding:50px;
+                background-color:orange;
+                border:30px solid #999;
+                margin-top: 150px;
+            }
+            /*Uso do pseudoelemento ::first-line:*/
+            #container-texto::first-line {
+                color: blue;
+                text-transform: uppercase;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1>PseudoClasses</h1>
+            <p>Pseudoclasses são uma forma de estilizar elementos com base em seu estado ou posição. Por exemplo, a pseudoclasse :hover é usada para aplicar estilos quando o mouse passa sobre um elemento. </p>
+            <a href="#" id="link">Passe o mouse sobre este texto para ver a pseudoclasse :hover em ação.</a>
+
+            <h1>PseudoElementos</h1>
+            <p id="container-texto">Pseudoelementos são usados para estilizar partes específicas de um elemento. Por exemplo, o pseudoelemento ::first-line é usado para aplicar estilos à primeira linha de um elemento. Como você pode ter notado, neste texto, a primeira linha esta em letras maísculas na cor azul.</p>
+        </div>
+    </body>
+</html>
