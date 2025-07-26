@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-size:2rem;
+            }
+
+            /*Todos os elementos numa única linha*/
+            #container-flexbox-row {
+                display: flex;
+                flex-direction: row;
+            }
+
+            #container-flexbox-row div,
+            #container-flexbox-col div {
+                width:100%;
+                height:50px;
+                background-color:green;
+            }
+            /*Todos os elementos numa única coluna*/
+            #container-flexbox-col {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #container-grid {
+                display: grid;
+                grid-template-columns:
+                    100px 100px 100px 100px 100px 100px;
+                /*grid-template-rows:
+                    100px 200px 10px 100px 200px 10px;*/
+                color: #fff;
+            }
+
+            #container-grid div {
+                border: 1px solid #000;
+                background: #336666;
+            }
+
+            /*Posição absoluta - em relação ao elemento anterior*/
+            #container-absolute {
+                background-color: rgb(238,130,238);
+                position: absolute;
+                top: 80px;
+                right: 0;
+                width: 200px;
+                height: 100px;
+                border: 3px solid #73AD21;
+                color: #000;
+            }
+
+            /*posição estática - posição natural*/
+            #container-static {
+                border: 3px solid #73AD21;
+                width: 300px;
+                background: rgb(106,90,205);
+            }
+
+            /*Posição relativa - em relação ao seu posicionamento normal*/
+            #container-relative {
+                position: relative;
+                left: 30px;
+                border: 3px solid #73AD21;
+                width: 300px;
+                background: rgb(106,90,205);
+            }
+
+            /*Posição fix - em relação à viewport*/
+            #container-fixed {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                width: 300px;
+                border: 3px solid #73AD21;
+                background: orange;
+            }
+            </style>
+    </head>
+
+    <body>
+        <h1>Flexbox row</h1>
+        <div id="container-flexbox-row">
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+            <div>Item 5</div>
+            <div>Item 6</div>
+        </div>
+
+        <h1>Flexbox col</h1>
+        <div id=""container-flexbox-col">
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+            <div>Item 5</div>
+            <div>Item 6</div>
+        </div>
+
+        <h1>Grid</h1>
+        <div id="container-grid">
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+            <div>Item 5</div>
+            <div>Item 6</div>
+            <div>Item 7</div>
+            <div>Item 8</div>
+        </div>
+
+        <h1>Posição Absoluta</h1>
+        <div id="container-absolute">
+            <div>Absolute: posicionado em relação ao elemento anterior, ou, na ausência desse, em relação à tag body.
+            </div>
+        </div>
+
+        <h1>Posição Estática</h1>
+        <div id="container-static">
+            <div>
+                Static: posicionamento natural do elemento.<br><br>
+
+                Todo elemento esta em posição estática por padrão, ou seja, não é necessário declarar a propriedade position: static.
+            </div>
+        </div>
+
+        <h1>Posição Relativa</h1>
+        <div id="container-relative">
+            <div>
+                Relative: posicionado em relação à sua posição natural (static).
+            </div>
+        </div>
+
+        <h1>Posição Fixa</h1>
+        <div id="container-fixed">
+            <div>
+                Fixed: posicionado de forma fix em relação à viewport, ou seja, não se move com o scroll da página.
+            </div>
+        </div>
+
+    </body>
+</html>
