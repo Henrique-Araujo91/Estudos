@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Execução seletiva</h2>
+        <p>Comandos diferentes executados para cada valor da expressão</p>
+        <script>
+            let frase = "", b = eval(prompt("Digite um número qualquer."));
+            switch(b%2) {
+                case 0:
+                    frase = "O número é par.";
+                    break;
+                case 1:
+                    frase = "O número é ímpar.";
+                    break;
+            }
+            alert(frase);
+        </script>
+    </body>
+</html>
