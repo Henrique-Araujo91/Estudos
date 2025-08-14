@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    </head>
+    <body class="container">
+        <h1>Prática de Estruturas de Decisão</h1>
+        <p>O objetivo desse exercício é criar uma página para calcular o Índice de Massa Corpórea (IMC), segudno a fórmula:</p>
+        <h2>IMC=Peso(Kg) / Altura (m) * Altura (m)</h2>
+        <p>Após o cálculo, deverá ser apresentada a situação atual da pessoa, de acordo com a tabela.</p>
+        <table>
+            <tr>
+                <th>IMC</th>
+                <th>Classificação</th>
+                <tr>
+                    <td>Abaixo de 18.5</td>
+                    <td>Abaixo do peso</td>
+                </tr>
+                <tr>
+                    <td>Entre 18.5 e 24.9</td>
+                    <td>Peso normal</td>
+                </tr>
+                <tr>
+                    <td>Entre 25.0 e 29.9</td>
+                    <td>Acima do peso</td>
+                </tr>
+                <tr>
+                    <td>30.0 e 34.9</td>
+                    <td>Obesidade</td>
+                </tr>
+                <tr>
+                    <td>35.0 e 39.9</td>
+                    <td>Obesidade severa</td>
+                </tr>
+                <tr>
+                    <td>Acima de 40.0</td>
+                    <td>Obesidade mórbida</td>
+                </tr>
+            </tr>
+        </table>
+
+        <h1>Calcule seu IMC</h1>
+        <form class="form m-2">
+            <label class="form-label">Peso (Kg)</label>
+            <input type="number" id="v1"/>
+            <label class="form-label">Altura (m)</label>
+            <input type="number" id="v2"/>
+            <a href="#" class="btn btn-primary m-2" onclick="executar()">Executar</a>
+        </form>
+        <script src="script-imc.js"></script>
+        <script>
+            const executar = () => {
+                const peso = eval(document.getElementById("v1").value);
+                const altura = eval(document.getElementById("v2").value);
+                const valor_imc = imc(peso, altura);
+                const v_sit= situacao(valor_imc);
+                alert(`Seu IMC é: ${valor_imc.toFixed(2)}:: Situação: ${v_sit}`);
+            }
+        </script>
+</body>
+</html>
