@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Composição e Criação de Vetores</h1>
+        <h2>Comando for of - Iteração em Vetor (Elemento)</h2>
+        <p>Iteração nos elementos de um vetor:</p>
+        <p id="d1"></p>
+        <script>
+            const cars = ["BMW", "Volvo", "Saab", "Ford"];
+            let text = "";
+            for (let x of cars) {
+                text += x + " "; //x é o elemento do vetor
+            }
+            document.getElementById("d1").innerHTML = text;
+        </script>
+    </body>
+</html>
