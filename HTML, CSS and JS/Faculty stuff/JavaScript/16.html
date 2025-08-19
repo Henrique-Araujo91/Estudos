@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Composição e Criação de Vetores</h1>
+        <h2>Ordenação, Mapeamento e Redução</h2>
+        <button onClick="executar()">Clique Aqui</button>
+        <script>
+            executar = () => {
+                const valores = [1,6,5,9,2];
+                document.write("Valores iniciais: " + valores + "<br>");
+                valores.sort();
+                console.log(valores);
+                document.write("Valores ordenados: " + valores + "<br>");
+                console.log(`Valor na posição 3: ${valores[3]}`);
+                document.write(`Valor na posição 3: ${valores[3]}<br>`);
+                document.write("<br>Valores com forEach: <br>");
+                valores.forEach((element,index) => document.write(`Valor[${index}]:${element}<br>`));
+                document.write("<br>Valores com map (valor dobrado): <br>");
+                const dobro = valores.map((e)=>e*2);
+                dobro.forEach((element,index) => document.write(`Dobro[${index}]:${element}<br>`));
+                const somaDobro = dobro.reduce((a,b)=>a+b);
+                console.log("Soma 2x = "+somaDobro);
+                document.write("Soma 2x = "+somaDobro);
+                }
+        </script>
+    </body>
+</html>
