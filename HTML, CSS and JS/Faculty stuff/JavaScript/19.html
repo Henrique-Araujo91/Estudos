@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Manipulação de Vetores</h1>
+        <h2>Matrizes, Vetores e Método Flat</h2>
+        <script>
+            const matriz=[[1,2],[3,4],[5,6]];
+            console.log(matriz);
+            document.write("Matriz: <br>");
+            matriz.forEach((linha => {
+                document.write(linha + "<br>");
+            }))
+            const vetor=matriz.flat();
+            console.log(vetor);
+            document.write("Vetor: <br>");
+            vetor.forEach((element,index) => {
+                document.write(`Elemento[${index}]: ${element}<br>`);
+            });
+        </script>
+    </body>
+</html>
