@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Manipulação de Vetores</h1>
+        <h2>Cópia com Slice</h2>
+        <p>Cópia não altera o vetor original.</p>
+        <script>
+            const dias = ["dom","seg","ter","qua","qui","sex","sab"];
+            console.log(dias);
+            document.write("Dias da semana: " + dias + "<br>");
+            const dias_uteis = dias.slice(1,6);
+            console.log(dias_uteis);
+            document.write("Dias úteis: " + dias_uteis + "<br>");
+        </script>
+    </body>
+</html>
