@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Manipulação de Vetores</h1>
+        <h2>Inclusão e Remoção com Splice</h2>
+        <p>Parâmetros: posição, quantidade a ser removida e conteúdo novo.</p>
+        <p>Diferente de delete, que apenas indefine.</p>
+        <script>
+            const vetor=[1,2,3,4,5,6,7];
+            console.log(vetor);
+            document.write("Vetor inicial: " + vetor + "<br>");
+            vetor.splice(2,3);
+            console.log(vetor);
+            document.write("Vetor após splice(2,3): " + vetor + "<br>");
+            vetor.splice(2,0,"X","X");
+            console.log(vetor);
+            document.write("Vetor após splice(2,0,'X','X'): " + vetor + "<br>");
+        </script>
+    </body>
+</html>
