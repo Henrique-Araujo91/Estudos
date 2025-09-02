@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Requisições Assíncronas em JavaScript</h1>
+        <h2>AJAX - HTTP Assíncrono, JavasScript e XML</h2>
+        <ul>
+            <li>HTTP é um protocolo síncrono, mas o uso de XMLHttpRequest permite criar clientes assíncronos;</li>
+            <li>Atualmente, temos outras opções, como fetch, RxJS e Axios;</li>
+            <li>Apesar de ser utilizado inicialmente como XML, o AJAX permite formatos como texto simples e JSON;</li>
+            <li>Viabiliza a construção de páginas com carregamento dinâmico.</li>
+        </ul>
+        <h3>Formato JSON (Java Script Object Notation)</h3>
+        <ul>
+            <li>Formato simples para definição de objetos em JavaScript;</li>
+            <li>As propriedades dos objetos são definidas na forma de atributo:valor e separadas com vírgula;</li>
+            <li>Uma classe é definida com o uso de chaves;</li>
+            <li>Vetores são criados com colchetes;</li>
+            <li>Permite definição hierárquica.</li>
+        </ul>
+        <h4>Exemplo de JSON</h4>
+        <pre>
+        {
+            "nome": "João",
+            "idade": 30,
+            "endereços": [
+        {
+            "tipo": "casa",
+            "logradouro": "Rua A",
+            "numero": 123
+        }
+            ]
+        }
+        </pre>
+
+        <h3>Chamada HTTP com XmlHttpRequest</h3>
+        <pre>
+            let xhttp=new XMLHttpRequest();
+            xhttp.onreadystatechange=function() {
+                if (this.readyState == 4 && this.status == 20) {
+                    document.getElementById("demo").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "endereço", true);
+            xhttp.send();</pre>
+            
+        <h3>Utilização de Fetch API</h3>
+        <ul>
+            <li>O comando fetch substitui o objeto XmlHttpRequest, com diversas vantagens;</li>
+            <li>Suporta todos os métodos do HTTP;</li>
+            <li>Integração simples com APIs REST e uso de JSON;</li>
+            <li>Trabalha no modelo assíncrono;</li>
+            <li>Simplifica chamadas POST com passagem de valores JSON.</li>
+        </ul>
+        <h4>Fetch API e o Modelo Assíncrono</h4>
+        <pre>
+                let file = "fetch_info.txt";
+                fetch(file).then(x => x.text()).then(y => document.getElementById("demo1").innerHTML = y);
+
+                async function getText(file) {
+                    let x = await fetch(file);
+                    let y = await x.text();
+                    document.getElementById("demo2").innerHTML = y;
+                }
+                getText("fetch_info.txt");
+        </pre>
+        <h4>Utilizando Fetch API para HTTP no modo GET</h4>
+        <p>O método padrão é GET para consulta.</p>
+        <pre>
+            async function loadNames() {
+                const response = await fetch('/api/names');
+                const names = await response.json();
+
+                console.log(names); // [{name:'Joker'}, {name:'Batman'}]
+            }
+
+            loadNames();
+        </pre>
+        <h4>Utilizando Fetch API para HTTP no modo POST</h4>
+        <p>O método POST é utilizado para inclusão no REST.</p>
+        <pre>
+            async function postName() {
+                const object = {name:'James Gordon'};
+                const response = await fetch('/api/names', {
+                    method: 'POST',
+                    body: JSON.stringify(object),
+                    headers: 'Content-Type':'application/json'
+                });
+                const responseText = await response.text();
+                console.log(responseText); // 'OK'
+            }
+            postName();
+        </pre>
+        </body>        
+</html>
