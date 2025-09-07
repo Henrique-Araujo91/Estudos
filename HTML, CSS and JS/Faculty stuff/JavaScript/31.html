@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Requisição a recurso JSON</title>
+</head>
+<body>
+	<button onclick="loadRemoteJson()">Carregar Json</button>
+	<div id="product-info"></div>
+</body>
+	<script type="text/javascript">
+	
+		async function loadRemoteJson(){
+			const url = "https://dummyjson.com/products/1";
+			const productInfoDiv = document.getElementById('product-info');
+			productInfoDiv.innerHTML = 'Carregando...';
+			
+			try {
+				// O método 'get' é o padrão, então não é necessário especificá-lo.
+				const response = await fetch(url);
+
+				if (!response.ok) {
+					throw new Error(`Erro na requisição: ${response.status}`);
+				}
+
+				const data = await response.json();
+
+				// Em vez de registrar no console, exibimos os dados na página.
+				productInfoDiv.innerHTML = `
+					<h2>${data.title}</h2>
+					<p><strong>ID:</strong> ${data.id}</p>
+					<p><strong>Descrição:</strong> ${data.description}</p>
+					<p><strong>Preço:</strong> $${data.price}</p>
+					<p><strong>Desconto:</strong> ${data.discountPercentage}%</p>
+					<p><strong>Avaliação:</strong> ${data.rating}</p>
+					<p><strong>Estoque:</strong> ${data.stock}</p>
+					<p><strong>Marca:</strong> ${data.brand}</p>
+					<p><strong>Categoria:</strong> ${data.category}</p>
+					<img src="${data.thumbnail}" alt="Thumbnail de ${data.title}" width="200">
+					<h3>Imagens do Produto:</h3>
+					<div class="product-images">
+						${data.images.map(img => `<img src="${img}" alt="Imagem do produto" width="100">`).join('')}
+					</div>
+				`;
+			} catch (err) {
+				console.error('O seguinte erro ocorreu durante a requisição: ', err);
+				productInfoDiv.innerHTML = `Ocorreu um erro ao carregar os dados: ${err.message}`;
+			}
+		}
+	</script>
+</html>
