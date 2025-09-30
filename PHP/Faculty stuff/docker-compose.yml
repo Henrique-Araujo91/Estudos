@@ -1,0 +1,8 @@
+services:
+  # Define o serviço do servidor web
+  web:
+    build: . # Constrói a imagem a partir do Dockerfile na pasta atual
+    ports:
+      - "8080:80" # Mapeia a porta 8080 do seu PC para a porta 80 do container
+    volumes:
+      - ./:/var/www/html/ # Sincroniza a pasta atual com a pasta do servidor no container
