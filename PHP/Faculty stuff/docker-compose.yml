@@ -6,3 +6,25 @@ services:
       - "8080:80" # Mapeia a porta 8080 do seu PC para a porta 80 do container
     volumes:
       - ./:/var/www/html/ # Sincroniza a pasta atual com a pasta do servidor no container
+    depends_on:
+      - db # Garante que o serviço 'db' inicie antes do 'web'
+
+  # Define o serviço do banco de dados PostgreSQL
+  db:
+    image: postgres:15-alpine # Usa a imagem oficial e leve do PostgreSQL
+    restart: always # Reinicia o container se ele parar
+    ports:
+      - "5433:5432" # Mapeia a porta 5433 do PC para a porta 5432 do container, evitando conflitos
+    environment:
+      # Estas variáveis são lidas pela imagem do Postgres na primeira inicialização
+      # para criar o banco de dados e o usuário automaticamente.
+      POSTGRES_DB: test
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: psswd
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persiste os dados do banco
+      - ./schema.sql:/docker-entrypoint-initdb.d/init.sql # Executa este script na primeira inicialização do BD
+
+# Define um volume nomeado para persistir os dados do banco de dados
+volumes:
+  postgres_data:
