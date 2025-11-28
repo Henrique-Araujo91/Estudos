@@ -6,6 +6,6 @@ int main()
 
     printf("Digite seu primeiro nome: ");
     scanf("%s",firstname);
-    printf("Prazer em conhecê-lo, %s",firstname);
+    printf("Prazer em conhecê-lo, %s.\n",firstname);
     return(0);    
 }
