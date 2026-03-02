@@ -6,7 +6,7 @@ int main()
 
     for(x=0; x<20; x=x+1)
     {
-        puts("irurgia para ombros doloridos.");
+        puts("Cirurgia para ombros doloridos.");
     }
     return(0);
 }
