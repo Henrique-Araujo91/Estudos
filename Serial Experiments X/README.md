@@ -19,7 +19,9 @@ Este é um esforço contínuo e sem prazo determinado. As atualizações ocorrer
     </td>
     <td width="20"></td> <!-- Espaçador -->
     <td align="right" valign="top">
-      <video width="640" controls src="../assets/Serial Experiments Lain PS1 game trailer [_g1Zxi3LDic].mp4" title="Serial Experiments Lain PS1 Game Trailer"></video>
+      <a href="../assets/Serial Experiments Lain PS1 game trailer.mp4" title="Clique para assistir ao trailer">
+        <img src="../assets/serial-experiments-lain-psx.gif" alt="Trailer do jogo de Lain para PS1" width="640">
+      </a>
     </td>
   </tr>
 </table>
