@@ -14,7 +14,7 @@ Talvez seja desnecessário dizer, isso foi feito com um uso pesado de inteligên
 
 Também foi necessário o uso de outras ferramentas populares, como o [The Internet Archive](https://archive.org), [Torrents](https://deluge-torrent.org/) e outros sites, que armazenavam as ferramentas, softwares e bibliotecas obsoletos, necessários para preservar e operar softwares deprecados.
 
-O objetivo do projeto, bem como a sua aplicação, será detalhado nos próximos tópicos.
+No decorrer deste *Readme*, irei explicar melhor o contexto ao redor desse trabalho, detalhar minhas metas, o que fiz e como fiz para atingi-las.
 
 ---
 
@@ -28,7 +28,16 @@ Existe, porém, um certo período de tempo, entre 1998 e 2014, em que houve uma 
 
 Windows XP e Windows 7 foram os sistemas operacionais mais importantes de uma época extremamente importante para o desenvolvimento da computação e da internet. Pode-se dizer sem erro, que a vasta maioria dos softwares mais importantes do planeta foram criados para esse sistema operacionais em específico, e muitos deles não funcionam mais por terem sido abandonados e não seguirem padrões pós 2011. Windows XP em particular, tem um bônus de possuir softwares proprietários que emulavam programas mais antigos, da época do windows 98.
 
-Existe uma situação, então, na qual programas de computadores feitos até 1998 são facilmente emulados até mesmo por brinquedos, e programas feito após 2014 funcionam em qualquer computador atual por seguirem padrões rígidos de abstrações. A *Brecha* se encontra nesse período entre 1998 e 2014, que por coincidência, é onde um número gigantesco de programas criados por pessoas de todos os tipo ao redor do planeta foram criados, vendidos e usados. Uma grande quantidade desses softwares pode ser considerado, para todos os efeitos, *Lost Media*.
+Existe uma situação, então, na qual programas de computadores feitos até 1998 são facilmente emulados até mesmo por brinquedos, e programas feito após 2014 funcionam em qualquer computador atual por seguirem padrões rígidos de abstrações. A *Brecha* se encontra nesse período entre 1998 e 2014, que por coincidência, é onde um número gigantesco de programas criados por pessoas de todos os tipo ao redor do planeta foram criados, vendidos e usados. Uma grande quantidade desses softwares pode ser considerado, para todos os efeitos, <abbr title="Mídia que se acredita existir, mas que não está disponível ao público."><em>Lost Media</em></abbr>.
 
 ## Lost Media
 
+A destruição ou perda de obras de arte, textos literários e outros trabalhos artísticos não é novidade na história. Porém, em nossa era, existe uma camada extra nesse tema, que se refere à perda de trabalhos artísticos feitos em formatos digitais, como vídeos, programas de computadores, animes e jogos eletrônicos. 
+
+[Lost Media](https://en.wikipedia.org/wiki/Lost_media) é um termo recente que têm se tornado comum para pessoas que acessam a internet. <abbr title="Para mais detalhes, confira ''Lost Media'' no youtube"><em>Constantemente se vê o público discutindo sobre algum episódio de um programa de TV aberta que aconteceu algumas décadas atrás e que nunca mais se teve registro nenhum.</em> Eventualmente quando alguém encontra uma cópia do programa e traz ela para uma plataforma como o youtube, ela deixa de ser considerada *Lost Media*.
+
+O exemplo mais dramático disso nos últimos anos foi o ataque ao Estúdio [*Kyoto Animation*](https://en.wikipedia.org/wiki/Kyoto_Animation_arson_attack), onde um incêndio criminoso causou 36 mortes, 33 feridos. Na ocasião, a sala de servidores do estúdio não foi afetada, porém isso serviu de alerta para o esforço de preservação. Nos últimos anos, têm havido no Japão um grande movimento, envolvendo inclusive figuras políticas, para preservar a vasta quantidade de produção cultural feita ao logo de décadas. Se trata de uma quantidade gigantesca de shows de tv, filmes, jogos e animes, em vários tipos de formatos, muitos dos quais em formatos obsoletos e condições precárias.
+
+Logicamente, para pessoas comuns, não é possível montar um laboratório de alta tecnologia onde o processo de converter rolos de filmes antigos e fitas magnéticas em dados binários legíveis para sistemas operacionais modernos. Porém Lost Media não se trata apenas de dados que estão fisicamente inacessíveis. Se os programas estão disponíveis, porém não funcionam em sistemas operacionais atuais, eles ainda permanecem inacessíveis, e portanto, *perdidos*.
+
+## O Optiplex 990
