@@ -49,3 +49,21 @@ Fazendo a comparação, novamente, com um emulador de um console antigo; imagine
 O leigo talvez seja levado a pensar que, para resolver o embróglio de acessar softwares antigos, bastaria comprar um computador barato de nossa época, instalar o sistema operacional da época e realizar a emulação. Porém isso não é possível quando falamos do Windows XP e do Windows 7; tratam-se de sistemas proprietários, que utilizavam tecnologias antigas que se tornaram obsoletas conforme os anos passaram. Isso significa que, ao tentar instalar qualquer desses sistemas em um computador novo, o usuário sequer conseguirá passar da tela de boot, já que o instalador do sistema operacional não irá reconhecer as tecnologias e modos de booting atuais. 
 
 É necessário, então, utilizar um computador da época em que esses sistemas ainda estavam em uso. Mas qual?
+
+Machado de assis escreve, em Memórias Póstumas de Brás Cubas, que a versão final do ser humano, a mais completa, é dada aos vermes, porque a evolução constante acaba quando a morte chega. Tirando essa lógica mórbida do contexto humano, e levando ela para o mundo da computação, isso implica que o melhor hardware possível para emular softwares de uma era passada, é um computador que surgiu no final daquela época, sendo, evidentemente, o hardware mais avançado que jamais será criado para tais sistemas.
+
+*Para esse projeto, foi escolhido o Desktop Dell Optiplex 990 DT, pois, lançado em 2011, foi um computador extremamente popular, com amplo suporte, e um dos últimos a ter suporte para Windows XP.*
+
+Lembrando o cronograma de eventos até o momento;
++ Windows XP surgiu em 2001, foi deprecado em 2009, porém recebeu suporte até 2014;
++ Windows 7 surgiu em 2009, foi deprecado em 2015, porém recebeu suporte até 2020;
++ Optiplex 990 surgiu em 2011, numa época de transição, em que o suporte ao Windows xp ainda era necessário, e no apogeu do  Windows 7.
+
+É seguro dizer que o Optiplex é perfeito para essa tarefa, pois representa o melhor hardware feito para aquela época, enquanto oferece suporte total para esses sistemas operacionais. No ano de 2026, o hardware continua sendo bastante robusto até mesmo para sistemas operacionais atuais, porém o ponto de maior interesse não se trata meramente de poder computacional bruto, e sim da relação hardware/software, que foi aprimorada por uma geração inteira de programadores empresariais ao redor do planeta. 
+
+## Anexos
+
+O objetivo e a escolha do hardware base resolvem o núcleo do problema, porém para a aplicação do projeto, outras ferramentas são necessárias, tanto de software, quando de hardware. Tratam-se dos próprios sistemas operacionais, de drivers, programas antigos e esquecidos mantidos por hobbistas, configurações obscuras de 20 anos atrás, e, logicamente, da estrela do projeto; os softwares a serem resgatados do esquecimento. Do lado de hardware, discutirei informações importantes como a configuração escolhida para operar o computador, detalhes de configuração da bios e pequenos entraves e decisões que surgiram no caminho.
+
+No decorrer dos capítulos, irei detalhar o caminho a se percorrer para ter acesso a todos esses recursos.
+
