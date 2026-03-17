@@ -67,3 +67,10 @@ O objetivo e a escolha do hardware base resolvem o núcleo do problema, porém p
 
 No decorrer dos capítulos, irei detalhar o caminho a se percorrer para ter acesso a todos esses recursos.
 
+---
+
+# Capítulo 1 - Abstração Zero
+Abstração, no contexto de programação, é um termo empregado para separar uma ideia (nível de abstração máximo), de sua aplicação física dentro dos circuítos integrados de computador (abstração mínima). Porém, em computação, o número zero também é muito usado no contexto de "infinito"; quando um programa pede um valor numérico para repetição de uma determinada tarefa, zero pode vir a tomar o lugar de um valor infinito.
+
+## Uma Supernova vista de [FarFarOut](https://en.wikipedia.org/wiki/2018_AG37)
+
