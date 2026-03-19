@@ -20,7 +20,7 @@ Este é um esforço contínuo e sem prazo determinado. As atualizações ocorrer
     <td width="20"></td> <!-- Espaçador -->
     <td align="right" valign="top">
       <a href="../assets/Serial Experiments Lain PS1 game trailer.mp4" title="Clique para assistir ao trailer">
-        <img src="../assets/serial-experiments-lain-psx.gif" alt="Trailer do jogo de Lain para PS1" width="640">
+        <img src="../assets/serial-experiments-lain-psx.gif" alt="Trailer do jogo de Lain para PS1" width="320">
       </a>
     </td>
   </tr>
