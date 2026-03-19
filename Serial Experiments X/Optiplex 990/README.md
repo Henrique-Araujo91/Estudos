@@ -74,3 +74,18 @@ Abstração, no contexto de programação, é um termo empregado para separar um
 
 ## Uma Supernova vista de [FarFarOut](https://en.wikipedia.org/wiki/2018_AG37)
 
+Computadores são usados por humanos [há bastante tempo](https://en.wikipedia.org/wiki/Abacus), e mesmo computadores da forma como o conhecemos hoje, já tem uma longa [história](https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits), outras infraestruturas relacionadas, como a [internet](https://en.wikipedia.org/wiki/DARPA), estão sendo usadas para fins militares, igualmente por várias gerações, e claramaente envolveram uma quantidade gigantesca de trabalho de um exército de pesquisadores e desenvolvedores ao longo das décadas. Porém até muito recentemente, todo esse trabalho estava inacessível ao público em geral. A população, claro, era afetada pelo desenvolvimento das tecnologias, de uma maneira ou de outra, mas não podia interargir com ela, já que a complexidade, a falta de escalonamento, os altos custos, e, naturalmente, o sigilo militar, colocavam as pessoas comuns como um público espectador que tinha acesso a algumas benesses desses avanços, mas sem ter contato com ele.
+
+Computadores pessoais se tornaram baratos o suficiente a partir da década de 80. Porém ainda eram raros e não possuiam acesso a internet. Já naquela época houve uma explosão na criação de softwares, que hoje podem ser baixados em poucos segundos; devido a limitação de recursos daqueles aparelhos, mesmo dezenas de milhares de jogos e softwares caberiam em um microsd barato com muita folga.
+
+O evento crítico começou em meados dos anos 90; os computadores se tornaram potentes e complexos o suficiente para que programas elaborados pudessem ser criados, a indústria do cinema começou a usar extensivamente [Computer-generated imagery](https://en.wikipedia.org/wiki/Computer-generated_imagery), em filmes que rapidamente cativavam o público, como Toy Story e Titanic, e mais importante; a internet começava a ser disponibilizada para pessoas comuns.
+
+Após várias gerações de desenvolvimento acelerado, a tecnologia computacional explodia em algo que pode ser descrito como uma [Supernova](https://en.wikipedia.org/wiki/Supernova), particularmente em países de primeiro mundo, como Japão e Estados Unidos, onde um grande número de pessoas possuia recursos para estar na vanguarda desse evento.
+
+Registros culturais que cristalizam essa época são raros, mas existem. Em 1998, a obra [Serial Experiments Lain](https://en.wikipedia.org/wiki/Serial_Experiments_Lain) é lançada. Ironicamente, até hoje muitas pessoas reclamam que *parecem* não entender do que se trata, sendo que esse era justamente o núcleo da narrativa; a internet era algo novo, revolucionário, estranho, incompreensível. De certa forma, continua sendo até hoje.
+
+Sobre a internet em si, naquela época, pouquíssimos registros ainda permanecem; apesar da função *printscreen* já existir há muito tempo, no meio de todas aquelas inovações, registrar uma captura de tela faria tanto sentido quanto fotografar uma pedra em um evento histórico importante. 
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PcxlySSGtCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
