@@ -87,5 +87,7 @@ Registros culturais que cristalizam essa época são raros, mas existem. Em 1998
 Sobre a internet em si, naquela época, pouquíssimos registros ainda permanecem; apesar da função *printscreen* já existir há muito tempo, no meio de todas aquelas inovações, registrar uma captura de tela faria tanto sentido quanto fotografar uma pedra em um evento histórico importante. 
 
 <div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/PcxlySSGtCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<a href="https://www.youtube.com/watch?v=PcxlySSGtCc" target="_blank">
+ <img src="../../assets/w7-video-thumbnail.png" alt="Veja o vídeo" width="480" height="360"/>
+</a>
 </div>
