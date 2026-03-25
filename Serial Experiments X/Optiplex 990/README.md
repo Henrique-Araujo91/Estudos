@@ -84,10 +84,12 @@ Após várias gerações de desenvolvimento acelerado, a tecnologia computaciona
 
 Registros culturais que cristalizam essa época são raros, mas existem. Em 1998, a obra [Serial Experiments Lain](https://en.wikipedia.org/wiki/Serial_Experiments_Lain) é lançada. Ironicamente, até hoje muitas pessoas reclamam que *parecem* não entender do que se trata, sendo que esse era justamente o núcleo da narrativa; a internet era algo novo, revolucionário, estranho, incompreensível. De certa forma, continua sendo até hoje.
 
-Sobre a internet em si, naquela época, pouquíssimos registros ainda permanecem; apesar da função *printscreen* já existir há muito tempo, no meio de todas aquelas inovações, registrar uma captura de tela faria tanto sentido quanto fotografar uma pedra em um evento histórico importante. 
+Sobre a internet em si, naquela época, pouquíssimos registros ainda permanecem; apesar da função *printscreen* já existir há muito tempo, no meio de todas aquelas inovações, registrar uma captura de tela faria tanto sentido quanto fotografar uma pedra num evento histórico importante. Um dos poucos registros que se tem notícia foi feito no filme *Deep Impact (1998)*, onde uma jornalista utiliza um buscador primitivo de internet sobre uma garota chamada [ELE](https://en.wikipedia.org/wiki/Extinction_event#In_media) que estaria tendo um caso com um político importante, e acaba caindo em uma página do [Departamento de Paleontolgia de Berkley](https://ucmp.berkeley.edu/); ELE na verdade era uma sigla referente a eventos de extinção em massa, no caso, um meteoro.
 
 <div align="center">
 <a href="https://www.youtube.com/watch?v=PcxlySSGtCc" target="_blank">
  <img src="../../assets/w7-video-thumbnail.png" alt="Veja o vídeo" width="480" height="360"/>
 </a>
 </div>
+
+Como alguém que teve contato com a internet em 2003, eu diria que a experiência que o filme retrata é autêntica; houve um período de tempo em que a internet era recheada de páginas longas de instuitições educacionais explicando eventos históricos ou debatendo em detalhes tópicos de todos os tipos. A rolagem de página parecia ser infinita nos pequenos monitores crt, e apesar das limitações técnicas, o conteúdo carregava rapidamente, pois as poucas imagens disponíveis eram extremamente pequenas.
