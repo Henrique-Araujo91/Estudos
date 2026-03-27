@@ -97,3 +97,14 @@ Houve um período de tempo em que a internet era recheada de páginas longas de 
 [Mundos virtuais inteiros surgiram para quem estava no lugar e nas condições certas](https://www.youtube.com/watch?v=8naR1EUSduo), e em 1998 seria seguro dizer, foi o momento que essa supernova atingiu praticamente todos os habitantes do primeiro mundo, não se tratando mais de um privilégio, mas de uma tecnologia popularizada que estava chegando ao alcance do público em geral.
 
 Em 1998, eu tinha apenas 6 anos, e morava num dos locais mais isolados do planeta em termos de tecnologia. Mesmo naquela época, porém, eu tinha acesso a computadores; computadores obsoletos dos anos 80 doados a minha escola, ou computadores mais modernos de parentes, que apesar de não ter internet, já possuiam jogos 3d da época. Em 2003, as ondas de choque da Supernova finalmente iriam me atingir; naquele ano, meu pai adquiriu um computador com acesso à internet discada; com alguns anos de atraso, eu sentiria o calor da explosão, mesmo que vista de uma grande distância do centro.
+
+Era difícil para mim, naquela época, entender como algo tão conveniente poderia ser dado de graça. Ainda se vendia enciclopédias enormes, por preços absurdos, e elas não possuiam tanta interatividade e tanto conteúdo quanto a internet, mesmo que naquela época a internet brasileira fosse minúscula. Jogos de computadores já eram vendidos em [*CDRoms*](https://digerati.vinizinho.net/) junto com revistas a preços exorbitantes (em especial para crianças), e foi um grande avanço quando eu finalmente aprendi a descompactar arquivos em formatos zip.
+
+---
+
+# Capítulo 2 - A Missão do Rei - Máscara da Eternidade
+
+*CDRoms* com softwares estavam a venda, mas eram extremamente caros. Rapidamente se criou uma cultura em que se emprestava o cd, era feito uma cópia e ambas as pessoas possuiam o software. As cópias eram feitas por lojas, e mais tarde, conforme as pessoas foram adquirindo hardwares mais capazes, em seus próprios computadores, com leitores capazes de ler e escrever discos. Logicamente as empresas correram atrás de medidas anti pirataria, que eram  contornadas por softwares mais sofisticados, em uma corrida de gato e rato. Creio que [Nero](https://en.wikipedia.org/wiki/Nero_Burning_ROM) foi o ápice dessa época.
+
+Dessa época ainda me restam dúzias, talvez centenas de *CDRoms*, muitos originais e outros meras cópias. Surpreendentemente eles continuam funcionando até hoje, prova da resiliência dessa tecnologia.
+
