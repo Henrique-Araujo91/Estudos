@@ -104,7 +104,35 @@ Era difícil para mim, naquela época, entender como algo tão conveniente poder
 
 # Capítulo 2 - A Missão do Rei - Máscara da Eternidade
 
-*CDRoms* com softwares estavam a venda, mas eram extremamente caros. Rapidamente se criou uma cultura em que se emprestava o cd, era feito uma cópia e ambas as pessoas possuiam o software. As cópias eram feitas por lojas, e mais tarde, conforme as pessoas foram adquirindo hardwares mais capazes, em seus próprios computadores, com leitores capazes de ler e escrever discos. Logicamente as empresas correram atrás de medidas anti pirataria, que eram  contornadas por softwares mais sofisticados, em uma corrida de gato e rato. Creio que [Nero](https://en.wikipedia.org/wiki/Nero_Burning_ROM) foi o ápice dessa época.
+*CDRoms* com softwares estavam a venda, mas eram extremamente caros. Rapidamente se criou uma cultura em que se emprestava o cd, era feito uma cópia e ambas as pessoas possuiam o software. As cópias eram feitas por lojas, e mais tarde, conforme o público foi adquirindo melhor hardware, em seus próprios computadores, com leitores capazes de ler e escrever discos. Logicamente as empresas correram atrás de medidas anti pirataria, que eram  contornadas por softwares mais sofisticados, em uma corrida de gato e rato. Creio que [Nero](https://en.wikipedia.org/wiki/Nero_Burning_ROM) foi o ápice dessa época.
 
 Dessa época ainda me restam dúzias, talvez centenas de *CDRoms*, muitos originais e outros meras cópias. Surpreendentemente eles continuam funcionando até hoje, prova da resiliência dessa tecnologia.
+
+Infelizmente a grande maioria dos jogos eram em inglês, idioma alienígena no Brasil até hoje. Porém haviam algumas exceções; estúdios de dublagem corajosos faziam um trabalho muito interessante em títulos de jogos famosos. Um exemplo disso, foi um dos jogos que eu peguei emprestado na época, legendado em português, foi [*King Quest VIII - Mask of Eternity*](https://en.wikipedia.org/wiki/King%27s_Quest:_Mask_of_Eternity). Não há nada de particularmente especial nesse jogo; eu já revisitei vários títulos da minha infância diversas vezes, como *Carmagedoom*, *Dino Crisis*, *Caesar III*, *Half Life* e *Pandemonium* (tenho memórias muito boas desse último, pois joguei com meus irmãos pouco antes deles irem embora em definitivo da casa dos meus pais). A diferença desse jogo para os demais é que ele simplesmente não funciona em sistemas operacionais modernos. 
+
+Começava uma Missão para rodar King Quest VIII. Tentar emular esse software, e outros que teimam em não funcionar, foi o que me motivou a aprender a usar *Virtual Machines*, porém eu rapidamente eu me dei conta de que isso não valia a pena; *VM's* são úteis para tarefas que não exigem um ambiente gráfico complexo, como abrir um programa legado de contabilidade. Para um jogo, é uma experiência inviável. 
+
+---
+
+# Capítulo 3 - Saltos Lógicos
+
+A emulação de um sistema operacional de código fechado não é uma tarefa trivial. Então logicamente, a ideia seria não emular o SO, e sim rodá-lo em um computador. Porém há detalhes suscintos nessa tarefa; por exemplo, computadores MultiCore, que hoje são o padrão, se tornaram comuns em 2006, jogos muito antigos, como é o caso de King Quest VIII (lançado em 1998), não foram otimizados para essa tecnologia e sofrem frequentemente de bugs. Se você adiciona a essa camada um hardware que esta a 20 anos de distância do software em questão, as chances do programa funcionar caem drásticamente. Por outro lado, se fosse tentado usar um hardware do ano em que o software foi lançado, pela lei de moore o resultado também ficaria ruim, já que computadores dobram de capacidade a cada 18 meses e um computador mais antigo terá menos recursos. 
+
+Então o ideal seria conseguir um hardware obsoleto para os padrões atuais, mas que foi o apogeu daquela era. Quem me ajudou com essa escolha foi o Gemini. Inteligências Artificiais, no ano de 2026, não são muito boas em dar recomendações, porém tópicos envolvendo programação e computadores são uma pequena exceção à regra, já que a internet, desde seu surgimento, esta repleta de discussões sobre o tema, e essas discussões foram usadas para alimentar o treinamento dos modelos. Segundo o Gemini, o Optiplex 990 DT foi um dos últimos computadores feitos para ser compatível Windows XP, e possuia um processador particularmente parrudo para a época, portanto era a escolha natural.
+
+A tarefa, então, já possuia três núcleos centrais; 
+- Windows XP: além de ser um dos sistemas operacionais mais importantes, ainda retia compatibilidade excelente com sistemas feitos nos anos 90;
+- Windows 7: também muito usado, e feito em uma era em que ainda não havia padronização o suficiente para que os softwares criados para ele fossem facilmente portados para diferentes sistemas operacionais;
+- Optiplex 990: o hardware com suporte nativo para ambos os sistemas, e recursos para que eles operassem em capacidade máxima.
+
+A partir desse núcleo, detalhes menores de design para cumprir com a tarefa iriam surgir.
+
+---
+
+# Capítulo 3 - Os Galhos 
+
+Comprar o computador foi fácil e relativamente barato; é um modelo empresarial muito usado ao redor do mundo. Porém isso era apenas o começo da tarefa. Após a chegada do computador, começava o trabalho real. Ele exigiria tanto adaptações de hardware quanto de software, que são difíceis de ver para quem não tem muita experiência com o assunto.
+
+## 3.1 - Hardware
+O Dell Optiplex é um computador empresarial feito aos milhões, com um nível de padronização e ergonomia muito alto. Alguns detalhes importantes que irão fazer sentido mais adiante são o que se segue; o computador possui exatamente uma Baía 5.25 com um leitor de CD's, e a placa mãe possui exatamente 3 entradas satas, sendo que uma delas é de baixa velocidade para o leitor de CD's. A configuração padrão da BIOS é em modo RAID ON AHCI. Apesar do modo RAID, o computador sai de fábrica com apenas um HDD. O chamado Caddy proprietário da Dell dentro do gabinete só tem espaço para esse HDD, e suporte para um HDD ou SSD 2.5. Levando em conta que o computador é de 2011, quando os SSD's estavam começando a surgir, a ideia seria usar um SSD com espaço limitado  
 
