@@ -167,8 +167,15 @@ Após escolhido o meio, a isntalação é feita e... tanto o Windows XP quanto o
 
 Sobre o Snappy Drivers, eu tenho certeza de que há uma história interessante por trás de sua criação e evolução até os dias atuais. 
 
-Drivers de periféricos, como placas de vídeo, som, etc. são softwares básico para que o hardware funcione adequadamente. Porém também há outro tipo de software que não vem, necessariamente, atrelado com o sistema operacional; tratam-se de uma infinidade biblioteca de recursos, addons, DLL's e outros softwares obscuros que eram pré requisitos para vários tipos de programas diferentes. De momento, é possível classificar esse tipo de recurso em três listas distintas;
-+ Codecs de vídeos; 
-+ Pacotes proprietários da Microsoft;
+Drivers de periféricos, como placas de vídeo, som, etc. são softwares básico para que o hardware funcione adequadamente. Porém também há outro tipo de software que não vem, necessariamente, atrelado com o sistema operacional; tratam-se de uma infinidade biblioteca, de recursos, addons, DLL's e outros softwares obscuros que eram pré requisitos para vários tipos de programas diferentes. De momento, é possível classificar esse tipo de recurso em três listas distintas;
++ Codecs de vídeos;
++ Pacotes proprietários da Microsoft; 
 + Dependências obscuras que eu terei de correr atrás quando algum programa [particularmente teimoso](https://en.wikipedia.org/wiki/King%27s_Quest:_Mask_of_Eternity) falhar em rodar.
 
+Num ambiente ideal, após a instalação Hardware, do Sistema Operacional, dos drivers e dos softwares e dependências, finalmente a *Lost Media* poderia ser trazida de volta a vida. 
+
+---
+
+# Capítulo 4 - Boneyard
+
+[Boneyards](https://en.wikipedia.org/wiki/Aircraft_graveyard) são locais onde aviões descomissionados são enviados para serem armazenados para retirada de peças. O processo de adquirir materiais para a jornada envolveu algo similar. Computadores antigos são vendidos a preços baixos na internet, peças antigas podem ser encontradas em galpões ou compradas novamente pela internet. Algumas coisas são fáceis e baratas de achar, outras são muito difíceis e o preço acompanha a escassez. 
