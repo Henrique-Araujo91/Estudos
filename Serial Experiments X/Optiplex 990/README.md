@@ -179,3 +179,24 @@ Num ambiente ideal, após a instalação Hardware, do Sistema Operacional, dos d
 # Capítulo 4 - Boneyard
 
 [Boneyards](https://en.wikipedia.org/wiki/Aircraft_graveyard) são locais onde aviões descomissionados são enviados para serem armazenados para retirada de peças. O processo de adquirir materiais para a jornada envolveu algo similar. Computadores antigos são vendidos a preços baixos na internet, peças antigas podem ser encontradas em galpões ou compradas novamente pela internet. Algumas coisas são fáceis e baratas de achar, outras são muito difíceis e o preço acompanha a escassez. 
+
+A peça principal foi adquirida por cerca de R$600 reais. Trata-se do próprio Optiplex.
+
+Porém, o computador veio com um ssd solto dentro de sua estrutura, sem o caddy, que precisou ser adquirido por outros R$60 reais. Essa peça de plástico simples era indispensável, pois apesar de SSD's não sofrerem desgaste mecânico devido a choques, o mesmo não se aplica a discos rígidos convencionais. E eu precisaria instalar pelo menos um HDD convencional dentro do gabinete, para servir de repositório compartilhado dos programas mais tarde.
+
+Para fazer a troca rápida de sistemas operacionais, foi adquirido, também, o Adaptador Orico 1106ss, por cerca de 170 reais. Ele ocupa o espçao do leitor de CD's. Futuramente eu pretendo adquirir um leitor de CDs por USB, a fim de ter acesso a minha antiga coleção de CDRoms.
+
+Por fim, uma peça importante é a GPU. Em uma discussão com o gemini, chegou-se à conclusão que a melhor placa de vídeo para o que eu tinha em mente seria uma Nvidia Quadro K620 de 2GB de RAM. Isso porque, além de ser uma placa corporativa amplamente usada, ela também foi um dos últimos modelos fabricados com drivers para o Windows XP, portanto seria uma placa de qualidade razoável para o windows 7, e literalmetne o ápice do que seria possível encontrar para o Windows XP. Parece que muitas outras pessoas já haviam chegado à mesma conclusão; o preço dessa placa é salgado. O mais barato que eu encontrei foi R$ 400 reais. Enquanto a placa estava em uma longa jornada pelos correios, encontrei em um galpão uma antiga placa de video Nvidia G210 com 1GB de RAM. Havia duas razões para eu me adiantar e usar a placa de vídeo mais fraca; a primeira é que manter os drivers de vídeo integrados da intel desativados desde a instalação do SO iria evitar qualquer conflito, e a segunda é que o Optiplex, por si só, não possui a entrada HDMI que a GPU oferece.
+
+Cabos, HDD's e SSD's eu já possuia em mãos, o que me foi útil, pois o preço desses dispositivos explodiu recentemente, devido a corrida pela inteligência artificial. Se você esta lendo isso em algum momento do futuro, espero que se lembre disso como uma memória distante.
+
+Por fim, também foi necessário uma bateria CMOS de R$ 6 reais para substiuir a bateria velha que veio com o PC.
+
+Talvez eu poderia adicionar um cadeado à lista. Parece que havia uma preocupação grande com o furto de peças desses PCs corporativos, já que eles vinham com uma entrada para cadeados, e literalmente um sensor que servia para avisar se a tampa havia sido aberta.
+
+Essas são todas as peças velhas que eu precisava para o projeto. Todo o resto não custaria dinheiro, e sim tempo e suor.
+
+---
+
+# Capítulo 5 - Brute Force
+
