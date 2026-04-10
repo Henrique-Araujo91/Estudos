@@ -227,7 +227,9 @@ O Windows XP foi instalado de forma bem sucedida em um HDD de 160gb.
 ---
 
 # Capítulo 6 - O Apêndice
+
 Além da Baía 5.25 onde seria possível fazer uma troca física dos discos com os sistemas operacionais, também seria necessário um HDD interno dentro do computador, para guardar softwares compartilhados entre ambos os sistemas. Um baú, por assim dizer. Após a chegada do Caddy proprietário da Dell para o Optiplex, foi possível realizar a instalação de um HDD 3,5" com 2TB de espaço, dentro do gabinete.
 
 Infelizmente, um detalhe importante me escapou logo de cara; em que pese o HDD, com uma ampla variedade de softwares, estivesse em formato NTFS e tenha sido reconhecido imediatamente pelo Windows 7, o mesmo não ocorreu com o Windows XP. Isso porque ele não estava formatado em MBR, que era o formato da época do Windows XP 32bits. Curiosamente, o tamanho máximo permitido para partições MBR era algo em torno de 2TB. 
 
+A instalação de Drivers foi feita rapidamente no Windows 7. O arquivo de 53.4GB do [Snappy Drivers Installer Origins](https://snappy-driver-installer.org/) instalado via Torrent resolveu em questão de minutos uma tarefa que demoraria horas em algum momento aproximadamente 20 anos atrás. Logo após isso vieram alguns programas básicos, como codecs de vídeo, leitor de PDF, emulador de CD's e desempacotador de zips.
