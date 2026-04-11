@@ -233,3 +233,15 @@ Além da Baía 5.25 onde seria possível fazer uma troca física dos discos com 
 Infelizmente, um detalhe importante me escapou logo de cara; em que pese o HDD, com uma ampla variedade de softwares, estivesse em formato NTFS e tenha sido reconhecido imediatamente pelo Windows 7, o mesmo não ocorreu com o Windows XP. Isso porque ele não estava formatado em MBR, que era o formato da época do Windows XP 32bits. Curiosamente, o tamanho máximo permitido para partições MBR era algo em torno de 2TB. 
 
 A instalação de Drivers foi feita rapidamente no Windows 7. O arquivo de 53.4GB do [Snappy Drivers Installer Origins](https://snappy-driver-installer.org/) instalado via Torrent resolveu em questão de minutos uma tarefa que demoraria horas em algum momento aproximadamente 20 anos atrás. Logo após isso vieram alguns programas básicos, como codecs de vídeo, leitor de PDF, emulador de CD's e desempacotador de zips.
+
+O processo foi similar para Windows XP, apesar de ter sido um pouco mais complicado devido ao fato de o Disco interno não ter sido reconhecido.
+
+---
+
+# Capítulo 7 - Non Compliance
+
+O processo de instalar os sistemas operacionais foi longo o suficiente para que a placa de vídeo Nvidia Quadro K620 chegasse. Até então estava utilizando uma placa de vídeo mais simplória, até mesmo para os padrões da época; a Nvidia G210. A placa de vídeo provisória era necessária para evitar a ativação de drivers de vídeo ineficientes da Intel, e por um problema mais prático; o computador não possuia uma entrada HDMI nativa, e por algum motivo, a DisplayPort integrada se recusava a funcionar (o motivo é especulativo, mas parece que o problema é o meu monitor atual não ter suporte para antigos padrões da época, e não conseguir interpretar o sinal de vídeo do computador). 
+
+A promessa feita pelo Gemini, era de que a placa Quadro K620 seria o apogeu da era do Windows XP; literalmente uma das últimas placas feitas com suporte para tal sistema operacional. Com 2GB de RAM, não comprometeria o funcionamento do sistema operacional (que por questões de arquitetura, pode utilizar, no máximo 4GB de RAM tanto na memória primária quanto para vídeo). Basicamente, eu estaria construindo o melhor computador já feito para aquele sistema operacional. O produto não foi barato, custou quase o preço do computador em si.
+
+Promessas e custos grandes.
