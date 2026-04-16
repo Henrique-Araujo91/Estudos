@@ -252,4 +252,8 @@ Infelizmente, o mesmo não ocorreu com a instalação dos Drivers no Windows XP.
 
 A placa P620 é muito mais avançada de o modelo K620. Ironicamente, isso a torna inútil para o projeto em questão; apesar de ser um produto melhor para o Windows 7, essa placa de vídeo é *incompativel* com o Windows XP. 
 
-Tentando entender o porque dessa confusão ter acontecido, a única explicação razoável é que existe uma demanda enorme para uma placa como a K620; não se tratam exatamente de hobbystas como eu que estão dispostos a pagar altíssimos preços por elas, e sim empresas que rodam sistemas críticos em Windows XP e precisam de peças de reposição que não são mais fabricadas. O preço de um hardware obsoleto se torna facilmente o triplo do que uma versão mais moderna, simplesmente pelo fato de que ele possui os drivers certos. 
+Tentando entender o porque dessa confusão ter acontecido, a única explicação razoável é que existe uma demanda enorme para uma placa como a K620; não se tratam exatamente de hobbystas como eu que estão dispostos a pagar altíssimos preços por elas, e sim empresas que rodam sistemas críticos em Windows XP e precisam de peças de reposição que não são mais fabricadas. O preço de um hardware obsoleto se torna facilmente o triplo do que uma versão mais moderna, simplesmente pelo fato de que ele possui os drivers certos.
+
+---
+
+# Capítulo 8 -
