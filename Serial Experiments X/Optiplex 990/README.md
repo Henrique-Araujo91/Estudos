@@ -246,9 +246,9 @@ A promessa feita pelo Gemini, era de que a placa Quadro K620 seria o apogeu da e
 
 Grandes promessas e grandes custos. A instalação da K620 física da placa de vídeo ocorreu sem problemas, e incrivelmente, em ambos os casos, Windows XP e Windows 7, o sistema ligou sem sequer precisar dos drivers da GPU. Isso ocorre por que todas as placas de vídeo do planeta seguem, desde os anos 90, o padrão VESA BIOS Extensions (VBE), que garante um modo de operação mínimo embutido diretamente em seu hardware, capaz de transmitir na linguagem de vídeo mais simples que existe; o VGA padrão. Os sistemas operacionais, ao receberem o sinal da GPU e não encontrarem drivers internos relacionados a ela, automaticamente passam a utilizar o padrão VBE. Em comparação com as constantes telas azuis que eu enfrentei por mexer até mesmo em algo simples como a entrada SATA, isso é realmente um comportamento muito avançado. Logicamente, o padrão VBE é apenas um passo provisório. Sem os drivers, aspectos básicos da GPU, como a memória ou o poder de processamento, não são operacionais.
 
-A instalação dos Drivers da GPU com a utilização do SDIO ocorreu sem problemas. Logo o computador estava rodando com tecnologias que 10 anos atrás só estavam disponíveis para investidores profissionais da bolsa de valores.
+A instalação dos Drivers da GPU com a utilização do SDIO ocorreu sem problemas no Windows 7. Logo o computador estava rodando com tecnologias que 10 anos atrás só estavam disponíveis para investidores profissionais da bolsa de valores.
 
-Infelizmente, o mesmo não ocorreu com a instalação dos Drivers no Windows XP. Após algumas tentativas, eu me dei de conta que na verdade, a GPU *não* era uma K620, e sim uma P620. Pensei por um momento que poderia ser uma falha minha ao pesquisar o produto na internet, ou até mesmo uma sugestão equivocada (uma halucinação) da inteligência artificial, que erroneamente havia me recomendado o produto errado. Ocorre que analisando a descrição do produto que eu comprei, o vendedor deliberadamente escreveu o nome K620 na descrição.
+Infelizmente, o mesmo não ocorreu com a instalação dos Drivers no Windows XP. Após algumas tentativas, eu me dei de conta que na verdade, a GPU *não* era uma K620, e sim uma P620. Pensei por um momento que poderia ser uma falha minha ao pesquisar o produto na internet, ou até mesmo uma sugestão equivocada (uma halucinação) da inteligência artificial, que erroneamente havia me recomendado o produto incompatível com o XP. Ocorre que analisando a descrição do produto que eu comprei, o vendedor deliberadamente escreveu o nome K620 na descrição.
 
 A placa P620 é muito mais avançada de o modelo K620. Ironicamente, isso a torna inútil para o projeto em questão; apesar de ser um produto melhor para o Windows 7, essa placa de vídeo é *incompativel* com o Windows XP. 
 
@@ -256,4 +256,15 @@ Tentando entender o porque dessa confusão ter acontecido, a única explicação
 
 ---
 
-# Capítulo 8 -
+# Capítulo 8 - Bug Report
+
+Ao que parece, algo não saiu conforme o planejado, e eu gastei dinheiro em um objeto que não iria servir ao meu propósito. Só havia um curso de ação disponível; aproveitar a oportunidade para aprender coisas novas. Nesse caso, como um sistema operacional antigo, como o Windows XP, se comportava com uma GPU em modo zumbi.
+
+<div align="center">
+  <img src="../../assets/bug-reading.gif" alt="" width="300">
+  <p><em>Não consegui confirmar a origem da imagem.</em></p>
+</div>
+
+Sem retirar a P620 do computador, e com o gemini me acompanhando, eu comecei a fazer uma bateria de pequenos testes para entender como o sistema funcionava nessas condições. Fazendo uma analogia com a biologia, o padrão VBE seria o equivalente ao Cérebro Reptiliano das GPU's. Para quem não sabe, a teoria do Cérebro Trino diz que criaturas complexas, como mamíferos, compartilham com criaturas mais primitivas, como répteis, estruturas nervosas primordiais com funções similares. O que diferencia um ser humano de um jacaré seriam outras estruturas que existem por cima desse cérebro mais simples. A GPU com drivers funcionais em relação a uma GPU utilizando o padrão VBE seria como um ser humano em relação a um crocodilo. 
+
+Mas o que isso significava na prática? 
