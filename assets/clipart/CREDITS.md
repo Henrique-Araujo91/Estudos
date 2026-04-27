@@ -9,3 +9,9 @@ Este projeto utiliza recursos visuais e bibliotecas de terceiros, cujos direitos
   <p><em>MLA Citation:
 Animation. Animation. Animation Factory, Authentic Creatives, LLC, 04-03-2020, https://animationfactory.com/download.php?iid=35404&tl=animations. Accessed 17-04-2026.</em></p>
 </div>
+
+<div align="center">
+  <img src="../../assets/clipart/wizard-computer.gif" alt="" width="300">
+  <p><em>MLA Citation:
+Computer Wizard Clipart. Clipart. Animation Factory, Authentic Creatives, LLC, 18-04-2020, https://animationfactory.com/download.php?iid=9959&tl=3dclipart. Accessed 27-04-2026.</em></p>
+</div>
