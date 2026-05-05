@@ -261,10 +261,12 @@ Tentando entender o porque dessa confusão ter acontecido, a única explicação
 Ao que parece, algo não saiu conforme o planejado, e eu gastei dinheiro em um objeto que não iria servir ao meu propósito. Só havia um curso de ação disponível; aproveitar a oportunidade para aprender coisas novas. Nesse caso, como um sistema operacional antigo, como o Windows XP, se comportava com uma GPU em modo zumbi.
 
 <div align="center">
-  <img src="../../assets/bug-reading.gif" alt="" width="300">
-  <p><em>Não consegui confirmar a origem da imagem.</em></p>
+  <img src="../../assets/clipart/bug-reading.gif" alt="" width="300">
+  <p><em>MLA Citation:
+Animation. Animation. Animation Factory, Authentic Creatives, LLC, 04-03-2020, https://animationfactory.com/download.php?iid=35404&tl=animations. Accessed 17-04-2026.</em></p>
 </div>
 
 Sem retirar a P620 do computador, e com o gemini me acompanhando, eu comecei a fazer uma bateria de pequenos testes para entender como o sistema funcionava nessas condições. Fazendo uma analogia com a biologia, o padrão VBE seria o equivalente ao Cérebro Reptiliano das GPU's. Para quem não sabe, a teoria do Cérebro Trino diz que criaturas complexas, como mamíferos, compartilham com criaturas mais primitivas, como répteis, estruturas nervosas primordiais com funções similares. O que diferencia um ser humano de um jacaré seriam outras estruturas que existem por cima desse cérebro mais simples. A GPU com drivers funcionais em relação a uma GPU utilizando o padrão VBE seria como um ser humano em relação a um crocodilo. 
 
-Mas o que isso significava na prática? 
+Mas o que isso significava na prática? Era isso que eu estava disposto a testar com o Windows XP ligando em uma placa de vídeo, que foi produzida sem drivers para esse sistema operacional. O primeiro passo já havia dado; a placa, com sua entrada HDMI, já era útil para ligar o computador (o que não seria possível de outra forma). O que mais, além disso, os drivers básicos seriam capazes de oferecer?
+
