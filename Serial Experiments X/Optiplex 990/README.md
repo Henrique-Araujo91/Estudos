@@ -282,4 +282,12 @@ Um detalhe sutil; o abandono do gerenciamento de energia (ACPI); o sistema opera
 
 Naturalmente, o aspecto mais importante da ausência de drivers para a GPU é o desperdício de VRAM. Basicamente todos os 2gb de VRAM da P620 estavam ociosos no Windows XP devido à ausência dos drivers. O driver genérico reptiliano usa apenas algo entre 4 a 8 MB de VRAM para armazenar apenas o framebuffer 2D. O resto é ignorado.
 
-Incidentemente, indo mais a fundo no tópico do VRAM, descobri algo interessante;
+Incidentemente, indo mais a fundo no tópico do VRAM, descobri algo interessante; conforme já havia sido discutido, o calcanhar de aquiles do Windows XP é que a arquitetura 32 bits limita o espaço máximo de memória ram em algo em torno de 4GB. Estava curioso sobre como essa limitação interargia com o a memória VRAM de uma GPU. Seria o caso de que uma placa de 2GB iria reduzir o máximo de RAM para o resto do sistema operacional para 2GB de ram? E surpreendentemente, esse não é o caso. Acontece que o sistema operacional usa um processo chamado de Janela de Endereçamento (ou BAR - Base Address Register) para reduzir a quantidade preciosa de endereçamento de memórias sequestrada pela GPU em meros 256MB. Basicamente, o sistema operacional não tem acesso completo ao VRAM, a CPU vai simplesmente enviando dados em trechos de 256 e preenchendo a GPU conforme o tempo passa. Ele também faz requisições de tamanho similar à GPU. Para o sistema operacional, a GPU é uma caixa preta que pode armazenar uma quantidade consideravel de informações, mas essas informaçẽos não estão completamente visíveis para o sistema. Isso adiciona uma certa latência, mas garante que os recursos não serão desperdiçados devido as limitações da época.
+
+Na atualiadade, com sistemas de 64 bits que possuem uma quantidade absurdamente maior de endereçamentos, essa limitação não existe. É usado algo chamado Resizable BAR, que permite que essa janela seja do tamanho da VRAM inteira.
+
+Sobre desperdício de recursos, devo pontuar que devido ao fato do Optiplex ter 8GB de RAM, o Windows XP faz uso de algo em torno de metade desse recurso. Obviamente, é melhor sobrar do que faltar, especialmente porque o computador também vai ser usado com o Windows 7, no qual RAM se torna um recurso crítico.
+
+---
+
+# Capítulo 9 -
